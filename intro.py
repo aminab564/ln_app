@@ -85,42 +85,42 @@ lr.fit(X_train, y_train)
 
 
 # New data for features: income, education, parent, married, female and age
-person_1 = [8, 7, 0, 1, 1, 42]
+#person_1 = [8, 7, 0, 1, 1, 42]
 
 # Predict class, given input features
-predicted_class_1 = lr.predict([person_1])
+#predicted_class_1 = lr.predict([person_1])
 
 # Generate probability of positive class (=1)
-probs_1 = lr.predict_proba([person_1])
+#probs_1 = lr.predict_proba([person_1])
 
 
 # In[120]:
 
 
 # Print predicted class and probability
-print(f"Predicted class: {predicted_class_1[0]}") # 0=not Linkedin User, 1=Linkedin User
-print(f"Probability that this person is a Linkedin User: {probs_1[0][1]}")
+#print(f"Predicted class: {predicted_class_1[0]}") # 0=not Linkedin User, 1=Linkedin User
+#print(f"Probability that this person is a Linkedin User: {probs_1[0][1]}")
 
 
 # In[121]:
 
 
 # New data for features: income, education, parent, married, female and age
-person_2 = [8, 7, 0, 1, 1, 82]
+#person_2 = [8, 7, 0, 1, 1, 82]
 
 # Predict class, given input features
-predicted_class_2 = lr.predict([person_2])
+#predicted_class_2 = lr.predict([person_2])
 
 # Generate probability of positive class (=1)
-probs_2 = lr.predict_proba([person_2])
+#probs_2 = lr.predict_proba([person_2])
 
 
 # In[122]:
 
 
 # Print predicted class and probability
-print(f"Predicted class: {predicted_class_2[0]}") # 0=not Linkedin User, 1=Linkedin User
-print(f"Probability that this person is a Linkedin User: {probs_2[0][1]}")
+#print(f"Predicted class: {predicted_class_2[0]}") # 0=not Linkedin User, 1=Linkedin User
+#print(f"Probability that this person is a Linkedin User: {probs_2[0][1]}")
 
 
 ###################################
